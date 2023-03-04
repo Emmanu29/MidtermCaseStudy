@@ -511,3 +511,4 @@ input ~ .checked-radio-bg {
   border-radius: 15px;
   color: hsl(0, 0%, 100%);
 }
+load-more:hover { background: hsl(214, 84%, 56%); }
