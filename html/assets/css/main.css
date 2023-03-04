@@ -194,3 +194,68 @@ header{
 .navbar-brand img{
   width: 50%;
 }
+
+video{
+  width: 100%;
+  height: auto;
+}
+
+.banner-card {
+  padding-top: 40%;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-card {
+  height: max-content;
+  padding-top: unset;
+}
+
+
+
+.banner-card .card-content {
+  position: absolute;
+  right:  80px;
+  bottom: 20%;
+  left:   80px;
+}
+
+.banner-card .card-info {
+  display:     flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.banner-card .card-info div {
+  display:     flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.banner-card .card-info ion-icon {
+  font-size: 20px;
+  color:  hsl(211, 100%, 50%);
+  margin-right: 5px;
+}
+
+.banner-card .card-info span { font-weight: 600; }
+
+.banner-card .card-info .quality {
+  background:  hsl(211, 100%, 50%);
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.banner-card .card-title {
+  font-size: 3rem;
+  color: hsl(0, 0%, 100%);
+  text-shadow: 2px 0 2px #0007;
+}
+.banner--fadeBottom {
+  margin-top: -140px;
+  height: 10rem;
+  background-image: linear-gradient(180deg, transparent, rgba(1, 1, 2, 0.61), rgb(8, 1, 15));
+  margin-bottom: 30px;
+  position: relative;
+}
